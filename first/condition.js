@@ -1,4 +1,2 @@
-let usrname = prompt("enter the username below");
-
-let length=str.length(usrname);
-console.log('@${username}length');
+let username = prompt("enter the username below");
+console.log('@'+username+ username.length);
