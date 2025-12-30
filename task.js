@@ -52,7 +52,7 @@ users.map(u => {
   u.skills.map(s => newskills.push(s));
 });
 
-
+/// for add the unique skills
 newskills.map(s => {
   if (!uniqueSkills.includes(s)) {
     uniqueSkills.push(s);
@@ -133,7 +133,11 @@ users.forEach(u => {
     maxAge = age;
     oldestUser = u;
   }
-});
+
+}
+ 
+);
+console.log("oldes-user", maxAge);
  
  
  
