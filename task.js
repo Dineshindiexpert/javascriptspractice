@@ -3,21 +3,21 @@ const users = [
     id: 101,
     name: "  alex JOHNSON ",
     dob: "1992-06-15",
-    salary: "55000",
+    salary: "1",
     skills: ["html", "css", "javascript"]
   },
   {
     id: 102,
     name: "  maria  smith  ",
     dob: "1988-11-03",
-    salary: "72000",
+    salary: "11",
     skills: ["react", "node", "css"]
   },
   {
     id: 103,
     name: "john doe",
     dob: "1996-02-25",
-    salary: "48000",
+    salary: "100",
     skills: ["vue", "javascript", "html"]
   }
 ];
@@ -103,6 +103,7 @@ let largest = salary[salary.length - 1];
  
 console.log("Lowest salary:", lowest);
 console.log("Largest salary:", largest);
+console.log("Average salary:", salary.reduce((a, b) => a + b, 0)    / salary.length);
 
 
 // Task 4: Date Operations
